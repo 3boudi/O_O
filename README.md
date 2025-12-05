@@ -10,18 +10,11 @@ A simple training project built with **FastAPI** where you implemented CRUD oper
 This project is a clean and minimal FastAPI setup designed to help you practice the fundamentals:
 
 - Building REST APIs
-- Connecting models with a database
 - Creating CRUD operations
 - Testing endpoints
 - Organizing project structure
 
 ---
-
-## 📂 Project Structure
-```
-project/
-
-```
 
 ---
 
@@ -50,12 +43,6 @@ http://127.0.0.1:8000
 
 ---
 
-## 🗄️ Database Setup
-The project uses **SQLModel** or **SQLAlchemy** (depends on your choice). Example database connection:
-```python
-engine = create_engine("sqlite:///database.db", echo=True)
-```
-
 ---
 
 ## 🧪 Testing API
@@ -75,9 +62,8 @@ http://127.0.0.1:8000/redoc
 
 ## 🛠️ Technologies Used
 - FastAPI
-- Pydantic / SQLModel
+- Pydantic 
 - Uvicorn
-- SQLite (or your chosen DB)
 - Python 3.10+
 
 ---
